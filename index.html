@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js">
+  </script>
+    <script src="script.js" type="text/javascript">
+  </script>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+
+    <meta charset="utf-8">
+    
+    <title>
+      Would you like some ice cream?
+    </title>
+  </head>
+  
+  <body>
+    <div id="main">
+      <h1>
+        Would you like some ice cream?
+      </h1>
+      <div id="yesNo">
+        <label>
+          <input id="yes" name="yes/no" type="radio" value="Yes">
+          Yes
+        </label>
+        <label>
+          <input id="no" name="yes/no" type="radio" value="No">
+          No
+        </label>
+      </div>
+      <br>
+      <div id="menuLevel1" class="menuPane">
+        <div id="iceCreamOptions">
+          <h2>
+            Ice Cream Options
+          </h2>
+          
+          <div id="menuLevel2a" class="menuPane">
+            
+            <h3>
+              
+              What flavor?
+            </h3>
+            <label>
+              <input id="vanilla" name="flavor" type="radio">
+              Vanilla
+            </label>
+            <label>
+              <input id="chocolate" name="flavor" type="radio">
+              Chocolate
+            </label>
+            <label>
+              <input id="strawberry" name="flavor" type="radio">
+              Strawberry
+            </label>
+            <label>
+              <input id="neopolitan" name="flavor" type="radio">
+              Neopolitan
+            </label>
+            <div id="menuLevel2b" class="menuPane">
+              <h3>
+                How would you like it?
+              </h3>
+              <label>
+                <input id="cup" name="container" type="radio"
+                value="Cup">
+                Cup
+              </label>
+              
+              <label>
+                <input id="cone" name="container" type="radio" value=
+                "Cone">
+                Cone
+              </label>
+              <!--the div 'toppings' is the menu that will appear
+                  when user selects cup-->
+              <div id="toppings">
+                <div id="menuLevel3" class="menuPane">
+                  <h3>
+                    Pick your toppings:
+                  </h3>
+                  <label>
+                    <input class="top" name="toppings" type="checkbox">
+                    Whipped cream
+                  </label>
+                  <br>
+                  <label>
+                    <input class="top" name="toppings" type="checkbox">
+                    Nuts
+                  </label>
+                  <br>
+                  <label>
+                    <input class="top" name="toppings" type="checkbox">
+                    Cherry
+                  </label>
+                  <br>
+                  <label>
+                    <input class="top" name="toppings" type="checkbox">
+                    Sprinkles
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <form>
+        <input type="submit" value="Submit Query">
+      </form>
+    </div>
+  </body>
+</html>

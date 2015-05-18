@@ -1,0 +1,42 @@
+h1{
+  margin: 0;
+}
+#toppingsShown{
+  display: show;
+}
+#toppings{
+  display: none;
+}
+#iceCreamOptions{
+  display:none;
+}
+#iceCreamOptionsShown{
+  display: show;
+}
+body{
+  background-color: rgb(171,243,179);
+}
+#yesNo{
+  margin:0px
+}
+.menuPane{
+  padding: 10px;
+}
+#menuLevel1{
+  padding: 0px;
+}
+#menuLevel2a{
+  background-color: white;
+}
+#menuLevel2b{
+  background-color: lightgray;
+}
+#menuLevel3{
+  background-color: white;
+}
+#main{
+  max-width: 450px;
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+}
